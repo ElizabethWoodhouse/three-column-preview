@@ -78,3 +78,28 @@ img {
 	background-color: var(--third_panel_color);
 }
 
+@media only screen and (max-width: 375px) {
+	.wrapper {
+		height: 100%;
+		margin: 15% 0;
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+	}
+	.panel {
+		padding: 10%;
+	}
+	.panel button {
+		padding: 3%;
+		width: 45%;
+	}
+	.panel h3 {
+		margin: 5% 0%;
+	}
+	.panel p {
+		margin: 6% 0%;
+		width: 90%;
+	}
+}
