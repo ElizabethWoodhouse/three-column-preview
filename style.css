@@ -47,7 +47,7 @@ img {
 	font-size: 30px;
 }
 .panel p {
-	height: 45%;
+	height: 40%;
 	margin-left: 3%;
 	margin-right: 10%;
 }
@@ -57,6 +57,7 @@ img {
 	height: 10%;
 	border-radius: 20px;
 	border: none;
+	cursor: pointer;
 }
 .one button {
 	color: var(--first_panel_color);
@@ -76,3 +77,4 @@ img {
 .three {
 	background-color: var(--third_panel_color);
 }
+
