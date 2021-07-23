@@ -1,0 +1,78 @@
+:root {
+	--font-size: 15px;
+	--font: 'Lexend Deca';
+	--secondary_font: 'Big Shoulders Display';
+	--first_panel_color: hsl(31, 77%, 52%);
+	--second_panel_color: hsl(184, 100%, 22%);
+	--third_panel_color: hsl(179, 100%, 13%);
+	--text-color: hsla(0, 0%, 100%, 0.75);
+	--button-color: hsl(0, 0%, 95%);
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: var(--font);
+	font-size: var(--font-size);
+	color: var(--text-color);
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.wrapper {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	display: flex;
+	height: 60%;
+	width: 55%;
+}
+.panel {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
+img {
+	width: 20%;
+}
+.panel h3 {
+	font-family: var(--secondary_font);
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.panel p {
+	height: 45%;
+	margin-left: 3%;
+	margin-right: 10%;
+}
+
+.panel button {
+	width: 50%;
+	height: 10%;
+	border-radius: 20px;
+	border: none;
+}
+.one button {
+	color: var(--first_panel_color);
+}
+.two button {
+	color: var(--second_panel_color);
+}
+.three button {
+	color: var(--third_panel_color);
+}
+.one {
+	background-color: var(--first_panel_color);
+}
+.two {
+	background-color: var(--second_panel_color);
+}
+.three {
+	background-color: var(--third_panel_color);
+}
